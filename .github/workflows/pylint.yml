@@ -24,4 +24,6 @@ jobs:
 
     - name: Coverage
       run: |
-        coverage run -m $(git ls-files '*.py')
+        coverage run -m pytest
+        coverage report
+        coverage html
