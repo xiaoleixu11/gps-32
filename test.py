@@ -5,6 +5,7 @@ import transform
 
 
 class TestStringMethods(unittest.TestCase):
+    """Class representing something"""
 
     def test_is_upper(self):
         sting = transform.to_upper_case("hello")
