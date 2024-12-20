@@ -28,3 +28,4 @@ jobs:
         coverage run -m pytest $(git ls-files '*.py')
         coverage report
         coverage html
+        htmlcov
